@@ -38,6 +38,8 @@ The following functions are implemented:
 ## Installation
 
 ``` r
+install.packages("unjuris", repos = "https://cinc.rud.is")
+# or
 remotes::install_git("https://git.rud.is/hrbrmstr/unjuris.git")
 # or
 remotes::install_git("https://git.sr.ht/~hrbrmstr/unjuris")
@@ -45,6 +47,8 @@ remotes::install_git("https://git.sr.ht/~hrbrmstr/unjuris")
 remotes::install_gitlab("hrbrmstr/unjuris")
 # or
 remotes::install_bitbucket("hrbrmstr/unjuris")
+# or
+remotes::install_github("hrbrmstr/unjuris")
 ```
 
 NOTE: To use the ‘remotes’ install options you will need to have the
