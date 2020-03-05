@@ -4,9 +4,14 @@
 \name{unjuris}
 \alias{unjuris}
 \alias{unjuris-package}
-\title{...}
+\title{Search the U.N. Jurisprudence Database}
 \description{
-A good description goes here otherwise CRAN checks fail.
+The jurisprudence database is intended to be a single source of the human rights recommendations
+and findings issued by all above committees in their work on individual cases. It enables the general
+public, governments, civil society organizations, United Nations partners and international regional
+mechanisms to research the vast body of legal interpretation of international human rights law as
+it has evolved over the past years. Tools are provided to search and retrieve search results from
+the datbase.
 }
 \seealso{
 Useful links:

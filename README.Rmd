@@ -39,6 +39,16 @@ packageVersion("unjuris")
 
 ```
 
+```{r u-01}
+library(tibble) # for pretty printing
+
+(xdf <- juris_search(year_start = 2019, year_end = 2020))
+
+get_details(xdf$detail_url[10])
+
+get_details(2606)
+```
+
 ## unjuris Metrics
 
 ```{r cloc, echo=FALSE}

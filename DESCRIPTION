@@ -1,6 +1,6 @@
 Package: unjuris
 Type: Package
-Title: unjuris title goes here otherwise CRAN checks fail
+Title: Search the U.N. Jurisprudence Database
 Version: 0.1.0
 Date: 2020-03-05
 Authors@R: c(
@@ -8,17 +8,27 @@ Authors@R: c(
            comment = c(ORCID = "0000-0001-5670-2640"))
   )
 Maintainer: Bob Rudis <bob@rud.is>
-Description: A good description goes here otherwise CRAN checks fail.
+Description: The jurisprudence database is intended to be a single source of the human rights recommendations 
+    and findings issued by all above committees in their work on individual cases. It enables the general 
+    public, governments, civil society organizations, United Nations partners and international regional
+    mechanisms to research the vast body of legal interpretation of international human rights law as 
+    it has evolved over the past years. Tools are provided to search and retrieve search results from
+    the datbase.
 URL: https://git.rud.is/hrbrmstr/unjuris
 BugReports: https://git.rud.is/hrbrmstr/unjuris/issues
 Encoding: UTF-8
-License: AGPL
+License: MIT + file LICENSE
 Suggests: 
     covr, tinytest
 Depends: 
     R (>= 3.2.0)
 Imports: 
+    xml2,
     httr,
-    jsonlite
+    jsonlite,
+    rvest,
+    stringi,
+    magrittr,
+    stats
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.0.2
